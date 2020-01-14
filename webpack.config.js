@@ -15,10 +15,6 @@ module.exports = {
       filename: 'index.html',
       template: './src/static/index.html',
     }),
-    new HTMLPlugin({
-      filename: 'docs.html',
-      template: './src/static/docs.html',
-    }),
     new ExtractPlugin({
       filename: '[name].css',
     }),
