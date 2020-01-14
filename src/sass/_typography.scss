@@ -1,0 +1,37 @@
+.text-currency {
+  display: flex;
+  align-items: flex-end;
+
+  small {
+    font-size: 50%;
+    margin: 0 0.1rem 0.5rem;
+  }
+}
+
+.text-small {
+  font-size: small;
+}
+
+.text-regular {
+  font-size: 1.1rem;
+}
+
+.text-medium {
+  font-size: 1.25rem;
+}
+
+.text-large {
+  font-size: 2.2rem;
+}
+
+.text-xl {
+  font-size: 1.5625rem;
+}
+
+.text-xxl {
+  font-size: 2.5rem;
+}
+
+.text-bold {
+  font-weight: 600;
+}

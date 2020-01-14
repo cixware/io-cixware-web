@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "com-okhre"
+  },
+  "targets": {
+    "com-okhre": {
+      "hosting": {
+        "web": [
+          "com-okhre"
+        ]
+      }
+    }
+  }
+}

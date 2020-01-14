@@ -1,0 +1,69 @@
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+@import '../vendors/ionicons/css/ionicons.min.css';
+@import 'typography';
+@import 'utilities';
+
+/*!
+ *
+ *-------------------------------
+ * Custom Styles
+ * Copyright 2019-2020 Okhre.com
+ *-------------------------------
+ *
+ */
+
+// import components
+@import 'components/bootstrap-tagsinput';
+@import 'components/section-header';
+@import 'components/back-to-top';
+@import 'components/labels';
+@import 'components/form';
+@import 'components/logo';
+@import 'components/docs';
+// import sections
+@import 'sections/header';
+@import 'sections/hero';
+@import 'sections/lookup';
+@import 'sections/features';
+@import 'sections/contact';
+@import 'sections/footer';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: $primary;
+  transition: 0.5s;
+
+  &:hover, &:active, &:focus {
+    color: $primary;
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+main {
+  section {
+    padding: 90px 0 60px 0 !important;
+  }
+}
