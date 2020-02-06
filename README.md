@@ -1,1 +1,0 @@
-# Okhre Static Homepage
