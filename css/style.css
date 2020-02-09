@@ -7,6 +7,14 @@
 
 /* CSS Document */
 
+.web-design {}
+.web-app {}
+.desktop-app {}
+.mobile-app {}
+.backend-api {}
+.database {}
+.devops {}
+
 /* Color Elements
 ---------------------------------*/
 .text-white { color: white; }
@@ -366,6 +374,9 @@ color: #fff;
 	margin:0 0 45px 0;
 	list-style:none;
 	text-align:center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .Portfolio-nav li{
 	margin:0 10px;
@@ -395,22 +406,30 @@ color: #fff;
 .portfolioContainer{
 	margin:0 auto;
 	padding-left:15px;
+	transition: all 0.3s;
 }
 
 .Portfolio-box{
 	text-align:center;
 	margin-bottom:30px;
-	height:350px;
-	width:350px;
+	height: 160px;
+	width: 160px;
 	overflow:hidden;
 	float:left;
-	padding:0;
+	padding:0 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .Portfolio-box img{
-	margin-bottom:25px;
+	margin-bottom:auto;
+	width: 100%;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
+}
+.Portfolio-box h5 {
+	text-align: center;
 }
 
 .Portfolio-box img:hover {
