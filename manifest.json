@@ -17,12 +17,12 @@
   ],
   "icons": [
     {
-      "src": "./img/logo_white.png",
+      "src": "./img/logo_blue_192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "./img/logo_white.png",
+      "src": "./img/logo_blue_512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
