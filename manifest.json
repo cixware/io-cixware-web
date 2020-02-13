@@ -10,8 +10,10 @@
   "scope": "./",
   "start_url": "./",
   "categories": [
-    "communication",
-    "social"
+    "business",
+    "productivity",
+    "technology",
+    "web"
   ],
   "icons": [
     {
